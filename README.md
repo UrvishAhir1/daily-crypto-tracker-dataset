@@ -5,15 +5,15 @@ This dataset provides both the latest market snapshot and a growing historical t
 
 ## Overview
 
-This repository contains structured cryptocurrency market data collected daily using the CoinGecko API.
-The dataset is automatically updated daily via a GitHub Actions pipeline.
+This repository contains structured cryptocurrency market data collected daily using the CoinGecko API.  
+The dataset is automatically updated via a GitHub Actions pipeline and is suitable for both real-time analysis and long-term trend modeling.
 
 ## Files
 
 * **top_100_cryptocurrency_market_latest.csv** [View File](./top_100_cryptocurrency_market_latest.csv)
 
   Contains the latest snapshot of the top 100 cryptocurrencies.
-  Always limited to 100 rows.
+  Always contains exactly 100 rows.
 
 * **top_100_cryptocurrency_market_historical.csv** [View File](./top_100_cryptocurrency_market_historical.csv)
 
@@ -53,9 +53,15 @@ The dataset is automatically updated daily via a GitHub Actions pipeline.
 * Portfolio and risk analysis
 * Trend and volatility studies
 
+## Kaggle Dataset
+
+This dataset is also available on Kaggle for exploration and analysis: [Daily Crypto Tracker Dataset](https://www.kaggle.com/datasets/urvishahir/daily-crypto-tracker-dataset)
+
 ## Data Source
 
-Data is sourced from the CoinGecko public API.
+Data is sourced from the CoinGecko public API: [CoinGecko API](https://www.coingecko.com/en/api)
+
+This API provides real-time cryptocurrency market data.
 
 ## Notes
 
